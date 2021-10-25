@@ -4,32 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
        <header>
-           SIMPLE CALCULATOR
+           <h1>SIMPLE CALCULATOR</h1>
        </header>
     <main>
         <input type="text" class="display">
     </main>
      <section>
-         <div class="firstSection">
-             <button class="btn on">OFF</button>
-             <button class="btn spChar">&#37;</button>
-             <button class="btn spChar">&#8730;</button>
-             <button class="btn on">ON</button>
-          </div>
-          <div>
-            <button class="btn number">7</button>
-            <button class="btn number">5</button>
 
-             <button class="btn number">.</button>
+         <div class="btns">
+             <button class="btn del">DEL</button>
+             <button class="btn on">ON</button>
+             <button class="btn off">OFF</button>
+             <button class="btn clear">CE</button>
+             <button class="btn symbol" data-num="/">/</button>
+             <button class="btn number" data-num="7">7</button>
+             <button class="btn number" data-num="8">8</button>
+             <button class="btn number" data-num="9">9</button>
+             <button class="btn symbol" data-num="*">X</button>
+             <button class="btn number" data-num="4">4</button>
+             <button class="btn number" data-num="5">5</button>
+             <button class="btn number" data-num="6">6</button>
+             <button class="btn symbol" data-num="-">-</button>
+             <button class="btn number" data-num="1">1</button>
+             <button class="btn number" data-num="2">2</button>
+             <button class="btn number" data-num="3">3</button>
+             <button class="btn symbol" data-num="+">+</button>
+             <button class="btn symbol" data-num=".">.</button>
+             <button class="btn number" data-num="0">0</button>
+             <button class="btn equalSign">=</button>
            </div>
 
          
      </section>
     </div>
+
+    <script src="script.js"></script>
  
 </body>
 </html>
